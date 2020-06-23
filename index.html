@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+
+    <title>Login</title>
+  </head>
+
+  <body>
+
+    <div class="nav-bar">
+      <div class="container">
+        <a class="nav-logo" href="#">MassMutual</a>
+      </div>
+    </div>
+
+    <div class= "grid-container container">
+
+      <div class="login-container">
+        <form class="" action="index.html" method="post">
+          <h3>Log in to Retirement Access</h3>
+          <label id=email-label class="input-label" for="input">Email</label>
+          <input type="email" name="email-input" placeholder="Email" onfocus="showInputLabel()" required><br>
+          <label id="password-label" class="input-label" for="input">Password</label>
+          <input type="password" name="pass-input" placeholder="Password" onfocus="showInputLabel()" required><br>
+          <div class="login-register-btns">
+            <button class="main-btns" type="submit" name="loginBtn">Login</button>
+            <a name="register" href="#">Register for online access</a>
+          </div>
+        </form>
+        <div class="login-help-container">
+          <a href="#">Forgot Username?</a>
+          <a href="#">Forgot Password?</a>
+          <a href="#">Help</a>
+        </div>
+      </div>
+
+      <div class="feature-container">
+        <h3>With your account, you can:</h3>
+        <ul>
+          <li><span> <img class="list-icons" src="images/management.svg" alt="Manage Icon"> </span>Manage your retirement accounts</li>
+          <li><span> <img class="list-icons" src="images/bell.svg" alt="Notification Icon"> </span>Set preferences and notifications</li>
+          <li><span> <img class="list-icons" src="images/presentation.svg" alt="Tools Icon"> </span>Access tools for retirement planning</li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <footer>
+      <div class="container">
+        ©2020 Massachusetts Mutual Life Insurance Company (MassMutual), Springfield, MA 01111-0001. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
