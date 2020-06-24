@@ -7,7 +7,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/login.css">
+
 
     <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
 
@@ -25,7 +29,7 @@
     <div class= "grid-container container">
 
       <div class="login-container">
-        <form class="" action="index.html" method="post">
+        <form id="login-form" action="index.html" method="post">
           <h3>Log in to Retirement Access</h3>
           <label id=email-label class="input-label" for="input">Email</label>
           <input type="email" name="email-input" placeholder="Email" onfocus="showInputLabel()" required><br>
@@ -33,7 +37,7 @@
           <input type="password" name="pass-input" placeholder="Password" onfocus="showInputLabel()" required><br>
           <div class="login-register-btns">
             <button class="main-btns" type="submit" name="loginBtn">Login</button>
-            <a name="register" href="#">Register for online access</a>
+            <a name="register" href="register.html">Register for online access</a>
           </div>
         </form>
         <div class="login-help-container">
@@ -61,6 +65,6 @@
       </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="script/login.js"></script>
   </body>
 </html>

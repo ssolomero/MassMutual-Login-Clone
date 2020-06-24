@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/register.css">
+
+
+    <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+
+    <title>Register</title>
+  </head>
+
+  <body>
+
+    <div class="nav-bar">
+      <div class="container">
+        <a class="nav-logo" href="#">MassMutual</a>
+      </div>
+    </div>
+
+    <div class= "container">
+
+      <div class="register-container">
+        <form id="register-form" action="index.html" method="post">
+          <h3>Please provide us with the following to find your account:</h3>
+          <p>I am
+            <span><select name="user-type">
+              <option value="individual">an individual</option>
+              <option value="corporation">representing a trust or corporation</option>
+            </select></span>.
+          </p>
+          <p>My name is
+            <span><input type="text" name="first-name" placeholder="First Name"></span>
+            <span><input type="text" name="last-name" placeholder="Last Name"></span>
+            and I was born on
+            <span><input type="date" name="date" value=""></span>.
+          </p>
+          <p>My Social Security Number is <br>
+            <span><input class=ssn-input type="password" name="ssn1" maxlength="3" placeholder="XXX"></span>
+            <span><input class=ssn-input type="password" name="ssn2" maxlength="1" placeholder="XX"></span>
+            <span><input class=ssn-input type="password" name="ssn3" maxlength="4" placeholder="XXXX"></span>.
+          </p>
+          <input type="checkbox" name="consent-checkbox" value="">
+          <label for="consent-checkbox">
+            I consent to providing the above personal information to MassMutual, which MassMutual will use solely to verify my identity.
+          </label> <br>
+          <button class="main-btns" type="submit" name="register-btn">Next</button>
+        </form>
+      </div>
+
+    </div>
+
+
+    <footer>
+      <div class="container">
+        ©2020 Massachusetts Mutual Life Insurance Company (MassMutual), Springfield, MA 01111-0001. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script/login.js"></script>
+  </body>
+</html>

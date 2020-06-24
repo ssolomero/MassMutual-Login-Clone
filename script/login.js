@@ -7,9 +7,3 @@ function showInputLabel() {
    }
    element.placeholder = "";
 }
-
-//Label animation
-// Start with low margin when inactive
-// Move label up when active
-
- // document.getElementById("fname").addEventListener("focusout", myFunction);
