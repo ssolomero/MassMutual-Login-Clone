@@ -1,6 +1,28 @@
-body {
-  font-family: Josefin Sans;
-  margin: 0;
+/* Nav Bar */
+.nav-bar {
+  top: 0;
+  position: fixed;
+  color: white;
+  background-color: #002f6c;
+  height: 75px;
+  width: 100%;
+}
+
+.nav-bar .container {
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar .nav-logo {
+  color: white;
+  margin-left: 2px;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 footer {
@@ -11,40 +33,26 @@ footer {
   text-align: center;
 }
 
+body {
+  font-family: Josefin Sans;
+  margin: 0;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
-}
-
-/* Nav Bar */
-.nav-bar {
-  top: 0;
-  position: fixed;
-  color: white;
-  background-color: #002f6c;
-  height: 75px;
-  width: 100%;
-}
-.nav-bar .container {
-  height: 75px;
-  display: flex;
-  align-items: center;
-}
-.nav-logo {
-  color: white;
-  margin-left: 2px;
-  font-weight: 700;
-  font-size: 1.2rem;
 }
 
 h3 {
   font-weight: 700;
   font-size: 1.3rem;
 }
+
 a {
   color: #002f6c;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -53,10 +61,11 @@ input, select {
   border: 0;
   border-bottom: 1px solid lightgray;
   width: 100%;
-  margin: 10px 0 30px ;
+  margin: 10px 0 30px;
   font-size: 1.1rem;
   font-family: Josefin Sans;
 }
+
 input:focus, select:focus {
   background-color: yellow;
   outline: none;
@@ -72,26 +81,27 @@ input:focus, select:focus {
   background-color: #064eb3;
   color: white;
 }
+
 .main-btns:hover {
   background-color: #002f6c;
 }
 
 /* Media Queries */
-
-@media (max-width:1170px) {
+@media (max-width: 1170px) {
   .container {
     margin: 0 10px;
   }
 }
 
-@media (max-width:970px) {
+@media (max-width: 970px) {
   footer {
     margin: 50px 0 20px 0;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .container {
     margin: 0 20px;
   }
 }
+/*# sourceMappingURL=styles.css.map */

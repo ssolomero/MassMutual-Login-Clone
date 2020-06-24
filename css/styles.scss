@@ -1,0 +1,76 @@
+@import "_colors";
+@import "_navbar";
+@import "_footer";
+
+body {
+  font-family: Josefin Sans;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+a {
+  color: $primaryCol;
+  text-decoration: none;
+
+  &:hover {
+      text-decoration: underline;
+  }
+}
+
+input, select {
+  border: 0;
+  border-bottom: 1px solid $inputLineCol;
+  width: 100%;
+  margin: 10px 0 30px ;
+  font-size: 1.1rem;
+  font-family: Josefin Sans;
+
+  &:focus {
+    background-color: $inputFocusCol;
+    outline: none;
+    font-weight: 500;
+    border-bottom: 1.5px solid $accentCol;
+  }
+}
+
+.main-btns {
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  border: 0;
+  background-color: $buttonCol;
+  color: white;
+
+  &:hover {
+    background-color: $primaryCol;
+  }
+}
+
+/* Media Queries */
+
+@media (max-width:1170px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width:970px) {
+  footer {
+    margin: 50px 0 20px 0;
+  }
+}
+
+@media (max-width:768px) {
+  .container {
+    margin: 0 20px;
+  }
+}

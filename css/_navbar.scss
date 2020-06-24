@@ -1,0 +1,21 @@
+/* Nav Bar */
+.nav-bar {
+    top: 0;
+    position: fixed;
+    color: white;
+    background-color: $primaryCol;
+    height: 75px;
+    width: 100%;
+  
+    .container {
+      height: 75px;
+      display: flex;
+      align-items: center;
+    }
+    .nav-logo {
+      color: white;
+      margin-left: 2px;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+  }
