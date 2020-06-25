@@ -46,6 +46,7 @@ body {
 h3 {
   font-weight: 700;
   font-size: 1.3rem;
+  margin-bottom: 20px;
 }
 
 a {
@@ -61,7 +62,7 @@ input, select {
   border: 0;
   border-bottom: 1px solid lightgray;
   width: 100%;
-  margin: 10px 0 30px;
+  margin: 10px 0 30px 0;
   font-size: 1.1rem;
   font-family: Josefin Sans;
 }
@@ -70,7 +71,24 @@ input:focus, select:focus {
   background-color: yellow;
   outline: none;
   font-weight: 500;
-  border-bottom: 1.5px solid dodgerblue;
+  border-bottom: 1.5px solid #1e90ff;
+}
+
+.pass-toggle {
+  background-color: white;
+  border: none;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.pass-toggle img {
+  width: 25px;
+  border: none;
+}
+
+.pass-toggle:focus {
+  outline: none;
 }
 
 .main-btns {

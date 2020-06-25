@@ -20,7 +20,7 @@
 
     <div class="nav-bar">
       <div class="container">
-        <a class="nav-logo" href="#">MassMutual</a>
+        <a class="nav-logo" href="index.html">MassMutual</a>
       </div>
     </div>
 
@@ -42,9 +42,13 @@
             <span><input type="date" name="date" value=""></span>.
           </p>
           <p>My Social Security Number is <br>
-            <span><input class=ssn-input type="password" name="ssn1" maxlength="3" placeholder="XXX" required></span>
-            <span><input class=ssn-input type="password" name="ssn2" maxlength="1" placeholder="XX" required></span>
-            <span><input class=ssn-input type="password" name="ssn3" maxlength="4" placeholder="XXXX" required></span>.
+            <div class="pass-div">
+              <span><input class=ssn-input type="password" name="ssn1" maxlength="3" placeholder="XXX" required></span>
+              <span><input class=ssn-input type="password" name="ssn2" maxlength="2" placeholder="XX" required></span>
+              <span><input class=ssn-input type="password" name="ssn3" maxlength="4" placeholder="XXXX" required></span>.
+              <button class="pass-toggle"><img src="images/eye.svg" alt="eye icon" onclick="toggleSSN()"></button>
+            </div>
+    
           </p>
           <input type="checkbox" name="consent-checkbox" required>
           <label for="consent-checkbox">

@@ -26,11 +26,20 @@ select[name="user-type"] {
 }
 
 input[type="date"] {
-  color: gray;
+  color: black;
 }
 
 .ssn-input {
-  width: 100px;
+  width: 50px;
+}
+
+.pass-div {
+  display: flex;
+}
+
+.pass-toggle {
+  float: none;
+  margin-bottom: 0;
 }
 
 input[name="consent-checkbox"] {

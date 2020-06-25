@@ -20,7 +20,7 @@
 
     <div class="nav-bar">
       <div class="container">
-        <a class="nav-logo" href="#">MassMutual</a>
+        <a class="nav-logo" href="index.html">MassMutual</a>
       </div>
     </div>
 
@@ -32,7 +32,11 @@
           <label id=email-label class="input-label" for="input">Email</label>
           <input type="email" name="email-input" placeholder="Email" onfocus="showInputLabel()" required><br>
           <label id="password-label" class="input-label" for="input">Password</label>
-          <input type="password" name="pass-input" placeholder="Password" onfocus="showInputLabel()" required><br>
+          <div class="pass-div">
+            <input id="login-password" type="password" name="pass-input" placeholder="Password" onfocus="showInputLabel()" required>
+            <button class="pass-toggle"><img src="images/eye.svg" alt="eye icon" onclick="togglePass()"></button>
+          </div>
+         
           <div class="login-register-btns">
             <button class="main-btns" type="submit" name="loginBtn">Login</button>
             <a name="register" href="register.html">Register for online access</a>

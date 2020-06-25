@@ -11,3 +11,4 @@ The main tools I tried to utilize were CSS Grid and Sass.
 # TODO
 - Floating label animation 
 - Simple backend to keep track of users 
+- Password and SSN view toggle

@@ -33,6 +33,17 @@ input[type="date"] {
   width: 100px;
 }
 
+.pass-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pass-toggle {
+  float: none;
+  margin-bottom: 0;
+}
+
 input[name="consent-checkbox"] {
   margin-right: 10px;
 }
