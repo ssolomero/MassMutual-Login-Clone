@@ -28,3 +28,14 @@ function toggleSSN() {
   });
 }
 
+// Auto Tab
+$(".ssn-input").keyup(function () {
+  if (this.value.length == this.maxLength) {
+    var $next = $(this).next(".ssn-input");
+    if ($next.length)
+        $(this).next(".ssn-input").focus();
+    else
+        $(this).blur();
+  }
+});
+
